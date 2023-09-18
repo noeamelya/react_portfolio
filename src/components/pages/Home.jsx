@@ -1,14 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/images/watermark logo 2.png";
-import Particle from "../Particle";
-import Type from "./Type";
 
 function Home() {
     return (
       <section>
         <Container fluid className="home-section" id="home">
-          <Particle />
           <Container className="home-content">
             <Row>
               <Col md={7} className="home-header">
@@ -23,10 +20,6 @@ function Home() {
                   I'M
                   <strong className="main-name"> NENENG AMELYA</strong>
                 </h1>
-  
-                <div style={{ padding: 50, textAlign: "left" }}>
-                  <Type />
-                </div>
               </Col>
   
               <Col md={5} style={{ paddingBottom: 20 }}>
@@ -40,7 +33,6 @@ function Home() {
             </Row>
           </Container>
         </Container>
-        <Home2 />
       </section>
     );
   }
