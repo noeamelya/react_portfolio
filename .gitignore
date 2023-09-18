@@ -13,6 +13,7 @@ dist-ssr
 *.local
 .vscode
 vite.config.js
+.prettierrc
 
 # Editor directories and files
 .vscode/*
