@@ -7,7 +7,7 @@ function Contact(props) {
     <div>
       <h1>Contact Page</h1>
       <p>
-        
+      I'm Available For Freelance Project
       </p>
      <p>Email : </p>
       <Link to="contact" role="button" className="btn btn-link">
@@ -21,7 +21,7 @@ function Contact(props) {
 
       <p>Linkedin : </p>
       <Link to="contact" role="button" className="btn btn-link">
-        Learn Less
+      https://www.linkedin.com/in/noeamelya/
       </Link>
 
       <p>Phone number : </p>
