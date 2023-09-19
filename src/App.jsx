@@ -1,10 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import NavTabs from './components/NavBars';
+import NavTabs from './components/NabTabs';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Project from './components/pages/Project';
-import Contact from './components/pages/Contact';
+import Contact from './components/components/contact';
+
+
 
 function App() {
   return (
