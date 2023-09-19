@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
-import Resume from './Resume';
 
 function Contact(props) {
   return (
@@ -31,6 +30,7 @@ function Contact(props) {
 
       <Routes>
         <Route path="Resume" element={<Resume />} />
+
       </Routes>
     </div>
   );

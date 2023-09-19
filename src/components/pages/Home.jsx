@@ -1,10 +1,8 @@
-import React from "react";
-import ProfilePic from "./pp3.jpg"
+import React from 'react';
 
 function Home() {
-    return (
-      <section>
-        <div className="jumbotron p-5 mb-4 bg-body-tertiary rounded-3"/>
+  return (
+    <div className="jumbotron p-5 mb-4 bg-body-tertiary rounded-3">
     <div className="container-fluid py-5">
         <div className="row justifid-content-center">
             <div className="col-lg-7">                                           
@@ -19,14 +17,14 @@ function Home() {
             </div>
             <div className="col-lg-5">                                           
                 <div className="device-container" >
-                    <img src={ProfilePic} className="rounded-circle" alt="profile img" />
+                    <img src="./images/pp3.jpg" className="rounded-circle" alt="profile img" />
                 </div>
             </div>
         </div>
     </div>
-
-      </section>
-    );
-  }
+</div>
+  );
+}
   
-  export default Home;
+
+export default Home;

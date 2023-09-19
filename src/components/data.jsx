@@ -1,4 +1,4 @@
-export const Projects = [
+export const projects = [
     {
         title: "Team Profile Generator",
         description: "This application will take in information about employees on a software engineering team",
@@ -20,8 +20,3 @@ export const Projects = [
 
 ];
 
-export const Skills = [ 
-   
-"JavaScript", "ES6+", "CSS", "HTML5", "GitHub",  "React", "Node", "APIs",  "jQuery", "Bootstrap",
-
-];
