@@ -1,7 +1,7 @@
 import { useState } from "react";
 import {Link} from "react-scroll";
 import {FaTimes} from "react-icons/fa";
-import {CiMenuFries} from "react-icons/fa"
+import {CiMenuFries} from "react-icons/ci"
 
 function NavBar(){
     const[click, setClick] = useState(false);
