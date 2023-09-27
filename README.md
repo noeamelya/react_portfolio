@@ -22,13 +22,18 @@ Every React developer or web developer in general needs to be able to show off w
 2. In the project directory ```src```, you can run: ```npm run dev```
 
 3. Runs the app in the development mode.
-Open http://localhost:5184/ to view it in the browser. 
+Open http://localhost:5173/ to view it in the browser. 
 
 
 ## Usage
 Open the project folder and Navigate to ```/src/components/.```
 
+## Outcome
 
+![outcome the project](./src/Assets/images/outputproject.png)
+
+
+[output the project](https://drive.google.com/file/d/1zEHajNoOj2L_Vj0KMdQticBquQngZBC2/view)
 
 ## Technologies
 
